@@ -13,6 +13,7 @@
 		3433F2531C518B38003AE34D /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3433F2511C518B38003AE34D /* Localize.swift */; };
 		344169471C67539300B93D28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344169461C67539300B93D28 /* Foundation.framework */; };
 		344169491C67539700B93D28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344169481C67539700B93D28 /* UIKit.framework */; };
+		559F48851CFC5C3A000DC559 /* Localize+UILocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F48841CFC5C3A000DC559 /* Localize+UILocalization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		3433F2511C518B38003AE34D /* Localize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Localize.swift; path = Sources/Localize.swift; sourceTree = SOURCE_ROOT; };
 		344169461C67539300B93D28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		344169481C67539700B93D28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		559F48841CFC5C3A000DC559 /* Localize+UILocalization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Localize+UILocalization.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		3433F2381C518AF7003AE34D /* Localize_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				559F48841CFC5C3A000DC559 /* Localize+UILocalization.swift */,
 				3433F2501C518B38003AE34D /* Localize_Swift.h */,
 				3433F2511C518B38003AE34D /* Localize.swift */,
 				3433F23B1C518AF7003AE34D /* Info.plist */,
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3433F2531C518B38003AE34D /* Localize.swift in Sources */,
+				559F48851CFC5C3A000DC559 /* Localize+UILocalization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
